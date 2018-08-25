@@ -12,45 +12,7 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: client-library-for-accessing-the-square-connect-apis
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
-    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/square/v1meroles-post-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: client-library-for-accessing-the-square-connect-apis
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
-    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
-    Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/square/v1meroles-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/square/v1meroles-post-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Assigned
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/square/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://square.com

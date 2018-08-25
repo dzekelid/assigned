@@ -16,9 +16,13 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
+- name: Azure Blockchain Workbench REST API - Get Applications Roleassignments
+  x-api-slug: apiv1applicationsapplicationidroleassignments-get
+  description: |-
+    List all role assignments of the specified blockchain application. Users who are Workbench administrators
+                 get all role assignments. Non-Workbench administrators get all their role assignments. Roles are specified
+                 in the Workbench application configuration and can be retrieved from GET /applications/{applicationID}.
+                 Also, user information can be retrieved from GET /users/{userID}.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
   baseURL: https:////
@@ -28,89 +32,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
-  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
-  baseURL: https:////
-  tags: Blockchain, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-post-openapi.md
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
-  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
-  baseURL: https:////
-  tags: Blockchain, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-get-openapi.md
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
-  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
-  baseURL: https:////
-  tags: Blockchain, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-put-openapi.md
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: the-azure-blockchain-workbench-rest-api-is-a-workbench-extensibility-point-which-allows-developers-to-create-and-manage-blockchain-applications-manage-users-and-organizations-within-a-consortium-integrate-blockchain-applications-into-services-and-platforms-perform-transactions-on-a-blockchain-and-retrieve-transactional-and-contract-data-from-a-blockchain-
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
-  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
-  baseURL: https:////
-  tags: Blockchain, Relative Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-delete-openapi.md
-- name: Azure Blockchain Workbench
-  x-api-slug: azure-blockchain-workbench
-  description: Azure Blockchain Workbench helps organizations build rich, integrated
-    multi-party blockchain applications quickly and easily. Azure Blockchain Workbench
-    REST API provides developers and information workers a way to integrate to blockchain
-    applications. For example, a developer can use the REST API to enable IoT devices
-    to send data to a blockchain application. Or, an information worker can use the
-    REST API and Power BI to create visualization of blockchain data.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
-  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
-  baseURL: https:////
-  tags: Assigned
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/openapi.md
 x-common:
 - type: x-blog
   url: https://azure.microsoft.com/en-us/blog/topics/blockchain/

@@ -13,9 +13,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/okta/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Okta
-  x-api-slug: okta
-  description: the-okta-user-apidocsapirestusers-html-provides-operations-to-manage-users-in-your-organization-
+- name: Users (Okta API) - Get Assigned App Links
+  x-api-slug: usersuseridapplinks-get
+  description: Get assigned app links.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
   humanURL: https://www.okta.com
   baseURL: https://example.com//api/v1
@@ -26,18 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/okta/usersuseridapplinks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/okta/usersuseridapplinks-get-openapi.md
-- name: Okta
-  x-api-slug: okta
-  description: Provide secure identity management and single sign-on to any application,
-    whether in the cloud, on-premises or on a mobile device for your employees, partners
-    and customers with Okta.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
-  humanURL: https://www.okta.com
-  baseURL: https://example.com//api/v1
-  tags: Assigned
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/okta/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://nxtport.api.gallery.streamdata.io
