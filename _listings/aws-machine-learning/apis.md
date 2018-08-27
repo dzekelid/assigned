@@ -20,11 +20,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Assigned
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Machine Learning API - Delete Batch Prediction
+  x-api-slug: actiondeletebatchprediction-get
+  description: Assigns the DELETED status to a BatchPrediction, rendering it unusable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/aws-machine-learning/actiondeletebatchprediction-get-openapi.md
+- name: AWS Machine Learning API - Delete Data Source
+  x-api-slug: actiondeletedatasource-get
+  description: Assigns the DELETED status to a DataSource, rendering it unusable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/aws-machine-learning/actiondeletedatasource-get-openapi.md
+- name: AWS Machine Learning API - Delete Evaluation
+  x-api-slug: actiondeleteevaluation-get
+  description: Assigns the DELETED status to an Evaluation, rendering it unusable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/aws-machine-learning/actiondeleteevaluation-get-openapi.md
+- name: AWS Machine Learning API - Delete M L Model
+  x-api-slug: actiondeletemlmodel-get
+  description: Assigns the DELETED status to an MLModel, rendering it unusable.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
+  humanURL: https://aws.amazon.com/machine-learning/
+  baseURL: :///
+  tags: Amazon Web Services, Machine Learning, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/aws-machine-learning/actiondeletemlmodel-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lightsale.api.gallery.streamdata.io

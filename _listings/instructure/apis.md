@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Assigned
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Instructure Canvas Groups API - Assign unassigned members
+  x-api-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+  description: Assign unassigned members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-openapi.md
 - name: Instructure Canvas Groups API - Assign unassigned members
   x-api-slug: group-categoriesgroup-category-idassign-unassigned-members-post
   description: Assign unassigned members.

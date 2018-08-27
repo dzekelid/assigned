@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,26 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /group_categories/{group_category_id}/assign_unassigned_members:
+    post:
+      summary: Assign unassigned members
+      description: Assign unassigned members.
+      operationId: assign-unassigned-members
+      x-api-path-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+      parameters:
+      - in: query
+        name: sync
+        description: The assigning is done asynchronously by default
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Categories
+      - Group
+      - Category
+      - Id
+      - Assign
+      - Unassigned
+      - Members

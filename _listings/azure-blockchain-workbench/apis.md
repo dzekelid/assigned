@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Assigned
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apis.md
 specificationVersion: "0.14"
 apis:
@@ -32,6 +32,55 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-get-openapi.md
+- name: Azure Blockchain Workbench REST API - Post Applications Roleassignments
+  x-api-slug: apiv1applicationsapplicationidroleassignments-post
+  description: |-
+    Creates a user-to-role mapping in the specified blockchain application. This method can only be performed by
+                 users who are Workbench administrators.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignments-post-openapi.md
+- name: Azure Blockchain Workbench REST API - Get Applications Roleassignments Roleassignmentid
+  x-api-slug: apiv1applicationsapplicationidroleassignmentsroleassignmentid-get
+  description: |-
+    Get a role assignment of the specified blockchain application matching a specific user role assignment ID.
+                 Users who are Workbench administrators get the role assignment. Non-Workbench administrators get the role assignment
+                 if they are associated in the application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-get-openapi.md
+- name: Azure Blockchain Workbench REST API - Put Applications Roleassignments Roleassignmentid
+  x-api-slug: apiv1applicationsapplicationidroleassignmentsroleassignmentid-put
+  description: Updates the specified role assignment. This method can only be performed
+    by users who are Workbench administrators.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-put-openapi.md
+- name: Azure Blockchain Workbench REST API - Delete Applications Roleassignments
+    Roleassignmentid
+  x-api-slug: apiv1applicationsapplicationidroleassignmentsroleassignmentid-delete
+  description: |-
+    Deletes the specified role assignment. This method can only be performed by users who are
+                 Workbench administrators.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/
+  baseURL: https:////
+  tags: Blockchain, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/azure-blockchain-workbench/apiv1applicationsapplicationidroleassignmentsroleassignmentid-delete-openapi.md
 x-common:
 - type: x-blog
   url: https://azure.microsoft.com/en-us/blog/topics/blockchain/

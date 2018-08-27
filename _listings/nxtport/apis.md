@@ -7,11 +7,68 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-
 x-kinRank: "7"
 x-alexaRank: "3933231"
 tags: Assigned
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: T-mining Secure Container Release API (live) - Assign
+  x-api-slug: apiv1pickup-rightsidassign-put
+  description: Assign the PickupRight to a truck driver.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//blockchain
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apiv1pickup-rightsidassign-put-openapi.md
+- name: T-mining Secure Container Release API (live) - Assign
+  x-api-slug: apiv1pickup-rightsidassign-put
+  description: Assign the PickupRight to a truck driver.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//blockchain
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apiv1pickup-rightsidassign-put-openapi.md
+- name: T-mining Secure Container Release API (live) - Revoke Assignment
+  x-api-slug: apiv1pickup-rightsidrevoke-assignment-put
+  description: Revoke the current PickupRight assignment. This must be used in case
+    you did an assign of a PickupRight to a driver and you want to cancel this. This
+    action is only possible as long as the PickupRight is not exercised.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//blockchain
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apiv1pickup-rightsidrevoke-assignment-put-openapi.md
+- name: T-mining Secure Container Release API (live) - Assign
+  x-api-slug: apiv1pickup-rightsidassign-put
+  description: Assign the PickupRight to a truck driver.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//blockchain
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apiv1pickup-rightsidassign-put-openapi.md
+- name: T-mining Secure Container Release API (live) - Assign
+  x-api-slug: apiv1pickup-rightsidassign-put
+  description: Assign the PickupRight to a truck driver.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg
+  humanURL: https://www.nxtport.eu
+  baseURL: https://api.nxtport.eu//blockchain
+  tags: Technology, SaaS, Enterprise, Shipping, Data, General Data, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/assigned/master/_listings/nxtport/apiv1pickup-rightsidassign-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://npr.api.gallery.streamdata.io
